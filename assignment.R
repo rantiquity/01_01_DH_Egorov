@@ -16,7 +16,6 @@ my_data <- works |>
 # столбец с именем и фамилией на два новых: author, name. 
 # Удалите столбец name
 my_data2 <- my_data |>
-  my_data2 <- my_data |>
   separate(
            col = author, 
            into = c("author", "name"), 
